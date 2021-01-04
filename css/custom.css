@@ -1,0 +1,585 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #F9FEFE;
+    
+}
+.tradewind{
+	color:#6EA6A4;
+}
+.nav-cus{
+    background-color: #333333;
+    width:100%;
+		  
+		  
+}
+.nav-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	color: #ffffff;
+	
+}
+.nav-text:hover{
+	   	box-shadow: 2px 2px #F48E41;
+	   	transform: translateY(-0.10em);
+}
+
+
+/* Landing Page */
+
+
+/*search box css starts here*/
+.search-sec{
+	padding-top:200px;
+    padding: 0.6rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #6EA6A4;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+    color: #ffffff;
+}
+.wrn-btn:hover{
+	   	box-shadow: 3px 3px #F48E41;
+	   	transform: translateY(-0.10em);
+}
+@media (min-width: 992px){
+    .search-sec{
+    
+        position: relative;
+        background: rgb(110, 166, 164, 0.51);
+        
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: rgb(110, 166, 164, 0.51);
+    }
+}
+/* landing image and slogan starts here */
+
+.landing-image{
+	background-image: url('images/landing.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 60%;
+   
+}
+@media screen and (max-width: 600px){
+    .landing-image{
+    background-image: url(images/landing.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 90% 65%;
+    }
+}
+.slogan{
+	text-align: center;
+	padding-top:200px;
+}
+@media screen and (max-width: 600px){
+    .slogan{
+        padding-top: 50px;
+    }
+}
+
+.landing-slogan{
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	text-align: center;
+	
+}
+@media screen and (max-width: 600px){
+    .landing-slogan{
+	font-weight: 300;
+	font-size: 25px;
+        
+    }
+}
+.start-now-div{
+	 justify-content: center;
+	 align-items: center;
+}
+.start-now{
+	font-family: Montserrat;
+	width:50%;
+	height: calc(3rem + 2px) !important;
+	font-size: 22px;
+    font-weight: 400;
+    background-color: #6EA6A4;
+	color: #ffffff;
+}
+.start-now:hover{
+	   	box-shadow: 3px 3px;
+	   	transform: translateY(-0.10em);
+}
+
+/* services offered */
+.services-h{
+	background-color:rgb(110, 166, 164, 0.51);
+}
+.services-l{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+
+.services-ind{
+	 width: 13rem;
+	 height: 20rem;
+}
+@media screen and (max-width: 600px){
+    .services-ind{
+	 width: 8rem;
+    }
+}
+.services-img{
+	height: 13rem;
+}
+@media screen and (max-width: 600px){
+    .services-img{
+	 height: 5rem;
+    }
+}
+/* location explore cards */
+
+.row-0{
+	padding-top:50px;
+	
+}
+.card-1{
+	border:#F9FEFE;
+} 
+.img-size{
+	  border: 1px solid #000128;
+	  border-radius: 8px;
+	  height:250px;
+	  padding:5px;
+	
+}
+.card-title-0{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color:#ffffff;
+}
+.explore-cust{
+	padding-top:140px;
+}
+.explore{
+	font-family: Montserrat;
+	font-size: 22px;
+    font-weight: 400;
+    background-color: #F48E41;
+	color: #ffffff;
+    box-shadow: 5px 5px #6EA6A4;
+	
+}
+
+/* mailing list section */
+
+.mail-list{
+	padding-top:30px;
+	text-align: center;
+	padding-bottom:50px;
+}
+.mail-button{
+	font-size: 20px;
+	background-color: #F9FEFE;
+    border-color:#F48E41;
+    border-width:2px;
+	font-weight: 700;
+	height: calc(3rem) !important;
+}
+.mail-button:hover{
+	   	box-shadow: 3px 3px;
+	   	transform: translateY(-0.10em);
+}
+.hed-2{
+	padding-top:50px;
+	padding-bottom:10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: -0.05em;
+	color: #000128;
+	border-bottom-style:solid;
+	border-bottom-color:#6EA6A4;
+	border-bottom-width:medium;
+	
+}
+.par-1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 20px;
+	letter-spacing: -0.05em;
+	color: #000128;
+}
+
+/* footer section */
+
+.footer {
+	padding-top:50px;
+	padding-bottom:50px;
+    background-color: #333333;
+    font-family: Poppins;
+	font-style: normal;
+	justify-content: center;
+	color:#F48E41;
+}
+
+
+
+
+/* Jobs Listing Page */
+
+
+
+.center-things{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	text-align:left;
+}
+.center-thing{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	text-align:center;
+}
+.job-listing{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 100;
+	color:#333333;
+}
+.save-icon{
+	color:#F48E41;
+	border-width: 1.5px;
+		
+}
+.details-btn{
+	width:50%;
+    background-color: #F9FEFE;
+    border-color:#F48E41;
+   	border-width: 1.5px;
+    
+}
+.details-btn:hover{
+	   	box-shadow: 2px 2px;
+	   	transform: translateY(-0.10em)
+}
+
+
+
+/* Job details Modal */
+
+
+
+.det-buttons{
+	background-color: #fff;
+    border-color:#F48E41;
+    border-width:2px;
+}
+.det-buttons:hover{
+	   	box-shadow: 3px 3px;
+	   	transform: translateY(-0.10em);
+}
+.short-details{
+		font-size: 16px;
+		text-align: left;
+	
+}
+.long-details{
+		padding-top:20px;
+		font-size: 12px;
+		text-align: left;
+	
+}
+
+
+/* For employers landing page */
+
+
+.emp-landing{
+	background-image: url(images/logo-background.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+   
+}
+.emp-slogan-back{
+	padding-top:15%;
+	background-image: url(images/emp-landing.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 90% 80%;
+}
+
+.emp-slogan{
+	padding-bottom:20px;
+}
+@media screen and (max-width: 600px){
+    .emp-slogan{
+	 padding-top:300px;
+    }
+}
+.emp-landing-slogan{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: left;
+}
+@media screen and (max-width: 600px){
+    .emp-landing-slogan{
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+    }
+}
+.add-job-now{
+	font-family: Montserrat;
+	height: calc(3rem + 2px) !important;
+	font-size: 22px;
+    font-weight: 400;
+    background-color: #6EA6A4;
+	color: #ffffff;
+}
+.add-job-now:hover{
+	   	box-shadow: 3px 3px;
+	   	transform: translateY(-0.10em);
+}
+@media screen and (max-width: 600px){
+    .add-job{
+	justify-content:center;
+	align-items:center;
+
+    }
+}
+
+
+/* Dashboard */
+
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:5%;
+}
+
+
+.services-ld{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;background-color:rgb(110, 166, 164, 0.51);
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+.services-indd{
+	 width: 10rem;
+}
+@media screen and (max-width: 600px){
+    .services-indd{
+	 width: 6rem;
+    }
+}
+.services-imgd{
+	width: 8rem;
+	height: 5rem;
+}
+@media screen and (max-width: 600px){
+    .services-imgd{
+	 height: 5rem;
+    }
+}
+.par-1h{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: -0.05em;
+	color: #000128;
+}
+
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+.details-btnh{
+	width:80%;
+    background-color: #F9FEFE;
+    border-color:#F48E41;
+   	border-width: 1.5px;
+}
+.details-btnh:hover{
+	   	box-shadow: 2px 2px;
+	   	transform: translateY(-0.10em)
+}
+
+/* post_job */
+
+.post-job{
+	background-color: #ffffff;
+}
+.post-job-input{
+	background-color: #F9FEFE;
+}
+
+/* sign_up page */
+
+.sign-up-input{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+}
